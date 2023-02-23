@@ -1,0 +1,141 @@
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+text-align: center;
+font-size: 25px;
+}
+
+.catchcopy {
+  position: relative;
+  background-image: url(../imge/firstview.jpg);
+  background-position: left top;
+  background-size: 140%;
+  height: 400px;
+}
+
+.catchcopy_title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #fff;
+}
+
+.about {
+  padding: 70px 0 0 0;
+}
+
+.about_txt_p1 {
+  font-size: 15px; 
+  line-height: 1.5;
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+
+span{
+  font-weight: bold
+}
+
+.blog_new{
+padding: 70px 0 50px 0;
+}
+
+.flex__item {
+  display: flex;
+  justify-content: center;
+}
+
+.practice__card {
+  width: 100%;
+  margin: 0 20px;
+}
+
+.card__img img {
+  width: 100%;
+}
+
+.card__content {
+  padding: 15px 0px;
+}
+
+.card__ttl {
+  font-size: 15.5px;
+  line-height: 1.5;
+  font-weight:bold
+}
+
+.info_title {
+  padding: 70px 0 30px 0;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.contact-form table,
+.contact-form .submit-btn {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contact-form th {
+  text-align: left;
+  font-size: 15.5px;
+  width: 30%;
+}
+
+.contact-form td {
+  width: 50%;
+}
+
+.contact-form input:not(input[type="radio"]),
+.contact-form textarea {
+  width: 780px;
+}
+
+.contact-form input:not(input[type="radio"]) {
+  height: 20px;
+}
+
+.contact-form textarea {
+  height: 200px;
+}
+
+.contact-form label {
+  display: block;
+}
+
+.contact-form th {
+  padding: 15px 0;
+}
+
+.form_bottn{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 50px 0;
+}
+
+.btn1 {
+  display: inline-block;
+  background: #a7a7a7;
+  padding: 15px 200px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 1s ease;
+  margin: 0 30px;
+}
+
+.btn2 {
+  display: inline-block;
+  background: #5ad3c3;
+  padding: 15px 200px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 1s ease;
+}
